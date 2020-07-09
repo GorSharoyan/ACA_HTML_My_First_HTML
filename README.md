@@ -4,12 +4,11 @@ Website about HPe Proliant Server families and HPE Aruba Network solutions
 HTML Part:
 
 Used Tags:
-<p>,<a>,<submit>,<button>,</br>,<h1><h2><img><textarea><form><select>
+<!-- <p>,<a>,<submit>,<button>,</br>,<h1><h2><img><textarea><form><select> -->
 ant other HTML tags
 
 Semanthic Tags:
-<head><body><header><main><div><section><footer>
-
+<!-- <head><body><header><main><div><section><footer> -->
 Og Tags:
 "og:title"
 "og:url"
