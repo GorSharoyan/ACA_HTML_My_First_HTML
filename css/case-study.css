@@ -1,0 +1,33 @@
+@media screen and (min-width:1150px) {
+body {
+    font: medium;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    background: #edeef0;
+   }
+
+.case-study{
+    border: 3px solid #00b389;
+    padding: 12px;
+}
+.frame-wrapper{
+    padding:25px;
+    display:flex;
+    flex-direction: row;
+   }
+   .frame{
+    display: flex;
+    flex-direction: row;
+    margin:50px;
+    align-items: center;
+  }
+
+
+.overview{
+    font-size: 15px;
+}
+.main-footer{
+    border:none;
+}
+}

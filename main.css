@@ -1,0 +1,57 @@
+
+@import url("./css/index.css");
+@import url("./css/Review.css");
+@import url("./css/normalize.css");
+@import url("./css/case-study.css");
+html {
+	scroll-behavior: smooth;
+}
+
+.nav-item {
+	color: honeydew;
+	border: 1.2px solid #00b389;
+	margin-right: 20px;
+	padding: 15px;
+}
+
+body {
+	font: medium;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 1.4;
+	background: #edeef0;
+}
+
+.main-header {
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+.main-header {
+	width: 100%;
+	height: 35px;
+	margin-right: 0;
+	margin-left: 0;
+	padding: 0;
+	background-color: rgb(43, 68, 88);
+	border-bottom: 3px solid #00b389;
+}
+
+.main-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 10px;
+	align-items: center;
+}
+
+.logo {
+	cursor: pointer;
+	height: 125%;
+	margin: 10px;
+}
+
+.main-footer {
+	display: flex;
+	flex-direction: column;
+}

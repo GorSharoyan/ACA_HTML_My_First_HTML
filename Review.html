@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="My first HTMԼ" />
+      <meta property="og:url" content="https://www.linkedin.com/in/gor-sharoyan-759b1b189/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:description" content="Мy First HTML about HPE Solutions ))) " />
+      <meta property="og:image" content= './assets/HPE_Servers.png'/>
+      <title>HPE-Servers</title>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
+         rel="stylesheet"
+         />
+      <link href="./main.css" rel="stylesheet" />
+      <link rel="icon" sizes="32x32" href="./assets/Fav-icon.png" />
+   </head>
+   <body>
+      <header class="main-header">
+         <img
+            height="100"
+            class="logo"
+            src="./assets/HPE logo.png"
+            alt="LOGO"
+            href="https://www.hpe.com/us/en/home.html"
+            />
+         <nav>
+            <a class="nav-item" href="./index.html"> Home </a>
+            <a class="nav-item" href="./Review.html"> Review</a>
+            <a class="nav-item" href='./Case Study.html'>Case Study</a>
+         </nav>
+      </header>
+      <body>
+         <main class='form-wrapper'>
+            <form>
+               <section class = 'leave-review'>
+                  <h1>Leave a Review </h1>
+            <form class='review'method='get'>
+            <label class='review-data'>
+            First Name :
+            <input type ='text' name='first-name' placeholder ='John'>
+            </label>
+            <label class='review-data'>
+            Second Name :
+            <input type ='text' name='first-name' placeholder="Smith">
+            </label>
+            <label class='review-data'>
+            User age :
+            <input type ='number' name='age' placeholder="18">
+            </label>
+            <label class='review-data'>
+            <div class='review-data'>
+            Choose a model:
+            </div>
+            <select name="servers-list">
+            <option value="DL20">DL20</option>
+            <option value="DL160">DL160</option>
+            <option value="ML30">ML30</option>
+            <option value="ML110">ML110</option>
+            </select>
+            </label>
+            <label class='review-data'>
+            <div class='review-data'>
+            Write Review here:
+            </div>
+            <textarea 
+               name='review'
+               rows ='12' 
+               cols="50"
+               placeholder=
+               "My user Experience of the products was Gr8 !!! Keep Rockin !!!"
+               ></textarea>
+            </label>
+            </br>
+            <button class="submit-button" type="submit">Leave a Review</button>
+            </br>
+            </section>
+            </form>
+            <section class='news'>
+               <div class='news-section'>
+                  <input type ='checkbox'>
+                  Send me E-mails with latest updates
+               </div>
+               <div class='news-section'>
+                  <div class ='news-section-info'>
+                     <img height='100'src=./assets/Synergy.png alt='Synergy' class='Synergy'/>
+                  </div>
+                  <div class ='news-section-info'>
+                     <article class='article'>
+                        <p>
+                           The HPE Synergy 12000 Frame is the base for an HPE Synergy intelligent infrastructure with embedded management and scalable
+                           links that expands to meet business demand. The Frame is the base infrastructure that pools resources of compute, storage, fabric,
+                           cooling, power and scalability. IT can manage, assemble and scale resources on demand by using the Synergy Frame with an
+                           embedded management solution combining the Synergy Composer and Frame Link Modules. The Synergy Frame is designed to
+                           meet today’s needs and future needs with continuing enhancements to compute and fabric bandwidths, including photonics-ready
+                           capabilities.
+                        </p>
+                     </article>
+                  </div>
+               </div>
+            </section>
+         </main>
+         <a class="jump-to-top" href="#">
+         <img src="./assets/robot.png" alt="robot" class="robot" />
+         </a>
+         <footer class="main-footer">
+            <p class="copyright">(c) Copyright Gor Sharoyan 2020</p>
+            <p class="copyright"> Several icons downloaded from https://www.freepng.ru/</p>
+         </footer>
+   </body>
+</html>
