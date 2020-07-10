@@ -2,7 +2,7 @@
 
 # HPE-Servers
 Website about HPE Proliant Server families and HPE Aruba Network solutions.
-I chose this topic becsue I think HPE's websites have a quite simple design ,easy to mimic for beginners like me))) 
+I have chosen this topic becasue I think HPE's websites have a quite simple design ,easy to implement similar style for beginners like me))) 
 
 ## HTML Part(used):
 
